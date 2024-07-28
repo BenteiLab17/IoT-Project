@@ -29,4 +29,5 @@ contains such codes which does that task.</h3>
   The app allows registration of users whose personal data is saved in "Google Firebase". While logging in, it fetches users' data and
   try to see whether he/she is a system admin or normal user. Based on that, a particular android page will be displayed.
 </p>
-<p></p>
+
+<h3>This repository also contains a .pdf file which is a report of this IoT project</h3>
