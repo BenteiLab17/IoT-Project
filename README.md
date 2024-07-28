@@ -1,5 +1,5 @@
 # IoT-Project
-<h3>A "Water Quality Monitoring" device collects water data parameters, namely, ph, Hardness,Solids,Chloramines,Sulfate,Conductivity,Organic Carbon,Trihalomethanes,Turbidity and Potability, through sensors and checks whether the water is potable or not. This repository
+<h3>A "Water Quality Monitoring" IoT device collects water data parameters, namely, ph, Hardness,Solids,Chloramines,Sulfate,Conductivity,Organic Carbon,Trihalomethanes,Turbidity and Potability, through sensors and checks whether the water is potable or not. This repository
 contains such codes which does that task.</h3>
 <p>This repo is mainly divided into 3 sections:</p>
 <ol> 
@@ -11,6 +11,9 @@ contains such codes which does that task.</h3>
 <p>
   Sensors which are connected in this project are ph, turbidity and TDS. Since the "WeMosD1" microcontroller has only 1 analog input, a multiplexer is used
   to read the sensor values one at a time and then transfer them to the database "Google Firebae".
+</p>
+<p>
+  The WeMosD1 micro-controller has to connect to any Wifi means. A Wifi SSID and password should be filled in the code before the microcontroller is ready to be deployed.
 </p>
 <p>
   To make the android app intelligent, an ML model, trained using "Random Forest classifier", is inbuilt into it.
